@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../threejs-getting-started"
+		},
+		{
+			"path": "../../../../../synth-runner"
+		},
+		{
+			"path": "../../../../../cube-runner-desktop"
+		},
+		{
+			"path": "../../../../../church-connect-service"
+		}
+	],
+	"settings": {
+		"codetogether.virtualCursorJoin": "sharedVirtualCursor",
+		"codetogether.virtualCursorRemember": true,
+		"liveServer.settings.multiRootWorkspaceName": "synth-runner-application"
+	}
+}

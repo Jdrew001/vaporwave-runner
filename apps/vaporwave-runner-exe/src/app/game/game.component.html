@@ -1,0 +1,36 @@
+<div class="game-container">
+	<div class="signal-container">
+		<app-signal #signal></app-signal>
+	</div>
+	<div class="score-container">
+		<app-score></app-score>
+	</div>
+	<div class="speed-container">
+		<app-speeding-up #speedingUpComponent></app-speeding-up>
+	</div>
+    <canvas [ngStyle]="{'display': !startGame ? 'none': 'block'}" #gameContainer></canvas>
+</div>
+
+<ng-template #gameover let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title">GAME OVER</h4>
+	</div>
+	<div class="modal-body">
+		<p>Score: {{ playerScore }}</p>
+        <button type="button" class="btn btn-light mb-3" (click)="restartGame()">Restart Game</button>
+        <br>
+        <button type="button" class="btn btn-light" (click)="quitGame()">Quit</button>
+	</div>
+</ng-template>
+
+<ng-template #pausemenu let-modal>
+	<div class="modal-header">
+		<h4 class="modal-title">PAUSED</h4>
+	</div>
+	<div class="modal-body">
+		<p>Score: {{ playerScore }}</p>
+        <button type="button" class="btn btn-light mb-3" (click)="restartGame()">Restart Game</button>
+        <br>
+        <button type="button" class="btn btn-light" (click)="quitGame()">Quit</button>
+	</div>
+</ng-template>

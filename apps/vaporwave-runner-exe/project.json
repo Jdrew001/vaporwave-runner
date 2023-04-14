@@ -1,0 +1,95 @@
+{
+  "name": "vaporwave-runner-exe",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "vaporwave-runner",
+  "sourceRoot": "apps/vaporwave-runner-exe/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/vaporwave-runner-exe",
+        "index": "apps/vaporwave-runner-exe/src/index.html",
+        "main": "apps/vaporwave-runner-exe/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/vaporwave-runner-exe/tsconfig.app.json",
+        "assets": [
+          "apps/vaporwave-runner-exe/src/favicon.ico",
+          "apps/vaporwave-runner-exe/src/assets"
+        ],
+        "styles": ["apps/vaporwave-runner-exe/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "vaporwave-runner-exe:build:production"
+        },
+        "development": {
+          "browserTarget": "vaporwave-runner-exe:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "vaporwave-runner-exe:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "apps/vaporwave-runner-exe/**/*.ts",
+          "apps/vaporwave-runner-exe/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/vaporwave-runner-exe/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    }
+  }
+}

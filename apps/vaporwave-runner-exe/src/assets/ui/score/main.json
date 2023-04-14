@@ -1,0 +1,516 @@
+{
+  "v": "4.8.0",
+  "meta": {
+    "g": "LottieFiles AE 3.1.1",
+    "a": "",
+    "k": "",
+    "d": "",
+    "tc": ""
+  },
+  "fr": 29.9700012207031,
+  "ip": 0,
+  "op": 45.0000018328876,
+  "w": 1920,
+  "h": 1080,
+  "nm": "main",
+  "ddd": 0,
+  "assets": [{
+    "id": "image_0",
+    "w": 336,
+    "h": 93,
+    "u": "",
+    "p": "data:image/png;base64,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",
+    "e": 1
+  }],
+  "fonts": {
+    "list": [{
+      "fName": "RobotWorld-Italic",
+      "fFamily": "Robot World",
+      "fStyle": "Italic",
+      "ascent": 70.3125
+    }]
+  },
+  "layers": [{
+    "ddd": 0,
+    "ind": 2,
+    "ty": 2,
+    "nm": "Score_1.png",
+    "cl": "png",
+    "refId": "image_0",
+    "sr": 1,
+    "ks": {
+      "o": {
+        "a": 0,
+        "k": 100,
+        "ix": 11
+      },
+      "r": {
+        "a": 0,
+        "k": 0,
+        "ix": 10
+      },
+      "p": {
+        "a": 0,
+        "k": [960, 65, 0],
+        "ix": 2
+      },
+      "a": {
+        "a": 0,
+        "k": [168, 46.5, 0],
+        "ix": 1
+      },
+      "s": {
+        "a": 0,
+        "k": [100, 100, 100],
+        "ix": 6
+      }
+    },
+    "ao": 0,
+    "ip": 0,
+    "op": 45.0000018328876,
+    "st": 0,
+    "bm": 0
+  }],
+  "markers": [],
+  "chars": [{
+    "ch": "1",
+    "size": 24,
+    "style": "Italic",
+    "w": 25,
+    "data": {
+      "shapes": [{
+        "ty": "gr",
+        "it": [{
+          "ind": 0,
+          "ty": "sh",
+          "ix": 1,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [19.336, -63.281],
+                [0.488, 7.031],
+                [20.801, 7.031],
+                [39.648, -63.281]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "1",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }],
+        "nm": "1",
+        "np": 3,
+        "cix": 2,
+        "bm": 0,
+        "ix": 1,
+        "mn": "ADBE Vector Group",
+        "hd": false
+      }]
+    },
+    "fFamily": "Robot World"
+  }, {
+    "ch": "2",
+    "size": 24,
+    "style": "Italic",
+    "w": 75,
+    "data": {
+      "shapes": [{
+        "ty": "gr",
+        "it": [{
+          "ind": 0,
+          "ty": "sh",
+          "ix": 1,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [13.867, -42.969],
+                [63.867, -42.969],
+                [62.598, -38.281],
+                [12.598, -38.281],
+                [0.488, 7.031],
+                [70.801, 7.031],
+                [76.172, -13.281],
+                [26.172, -13.281],
+                [27.441, -17.969],
+                [77.441, -17.969],
+                [89.648, -63.281],
+                [19.336, -63.281]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "2",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }],
+        "nm": "2",
+        "np": 3,
+        "cix": 2,
+        "bm": 0,
+        "ix": 1,
+        "mn": "ADBE Vector Group",
+        "hd": false
+      }]
+    },
+    "fFamily": "Robot World"
+  }, {
+    "ch": "3",
+    "size": 24,
+    "style": "Italic",
+    "w": 75,
+    "data": {
+      "shapes": [{
+        "ty": "gr",
+        "it": [{
+          "ind": 0,
+          "ty": "sh",
+          "ix": 1,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [89.648, -63.281],
+                [19.336, -63.281],
+                [13.867, -42.969],
+                [63.867, -42.969],
+                [62.598, -38.281],
+                [12.598, -38.281],
+                [7.129, -17.969],
+                [57.129, -17.969],
+                [55.859, -13.281],
+                [5.859, -13.281],
+                [0.488, 7.031],
+                [70.801, 7.031]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "3",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }],
+        "nm": "3",
+        "np": 3,
+        "cix": 2,
+        "bm": 0,
+        "ix": 1,
+        "mn": "ADBE Vector Group",
+        "hd": false
+      }]
+    },
+    "fFamily": "Robot World"
+  }, {
+    "ch": "4",
+    "size": 24,
+    "style": "Italic",
+    "w": 75,
+    "data": {
+      "shapes": [{
+        "ty": "gr",
+        "it": [{
+          "ind": 0,
+          "ty": "sh",
+          "ix": 1,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [19.336, -63.281],
+                [7.129, -17.969],
+                [57.129, -17.969],
+                [50.488, 7.031],
+                [70.801, 7.031],
+                [89.648, -63.281],
+                [69.336, -63.281],
+                [62.598, -38.281],
+                [32.91, -38.281],
+                [39.648, -63.281]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "4",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }],
+        "nm": "4",
+        "np": 3,
+        "cix": 2,
+        "bm": 0,
+        "ix": 1,
+        "mn": "ADBE Vector Group",
+        "hd": false
+      }]
+    },
+    "fFamily": "Robot World"
+  }, {
+    "ch": "5",
+    "size": 24,
+    "style": "Italic",
+    "w": 75,
+    "data": {
+      "shapes": [{
+        "ty": "gr",
+        "it": [{
+          "ind": 0,
+          "ty": "sh",
+          "ix": 1,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [89.648, -63.281],
+                [19.336, -63.281],
+                [7.129, -17.969],
+                [57.129, -17.969],
+                [55.859, -13.281],
+                [5.859, -13.281],
+                [0.488, 7.031],
+                [70.801, 7.031],
+                [82.91, -38.281],
+                [32.91, -38.281],
+                [34.18, -42.969],
+                [84.18, -42.969]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "5",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }],
+        "nm": "5",
+        "np": 3,
+        "cix": 2,
+        "bm": 0,
+        "ix": 1,
+        "mn": "ADBE Vector Group",
+        "hd": false
+      }]
+    },
+    "fFamily": "Robot World"
+  }, {
+    "ch": "6",
+    "size": 24,
+    "style": "Italic",
+    "w": 75,
+    "data": {
+      "shapes": [{
+        "ty": "gr",
+        "it": [{
+          "ind": 0,
+          "ty": "sh",
+          "ix": 1,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [19.336, -63.281],
+                [0.488, 7.031],
+                [70.801, 7.031],
+                [82.91, -38.281],
+                [32.91, -38.281],
+                [34.18, -42.969],
+                [84.18, -42.969],
+                [89.648, -63.281]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "6",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }, {
+          "ind": 1,
+          "ty": "sh",
+          "ix": 2,
+          "ks": {
+            "a": 0,
+            "k": {
+              "i": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "o": [
+                [0, 0],
+                [0, 0],
+                [0, 0],
+                [0, 0]
+              ],
+              "v": [
+                [57.129, -17.969],
+                [55.859, -13.281],
+                [26.172, -13.281],
+                [27.441, -17.969]
+              ],
+              "c": true
+            },
+            "ix": 2
+          },
+          "nm": "6",
+          "mn": "ADBE Vector Shape - Group",
+          "hd": false
+        }],
+        "nm": "6",
+        "np": 5,
+        "cix": 2,
+        "bm": 0,
+        "ix": 1,
+        "mn": "ADBE Vector Group",
+        "hd": false
+      }]
+    },
+    "fFamily": "Robot World"
+  }]
+}

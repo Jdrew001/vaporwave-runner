@@ -1,0 +1,1 @@
+{"version":3,"file":"asset.config.js","sourceRoot":"","sources":["asset.config.ts"],"names":[],"mappings":";;AAAA,MAAqB,WAAW;;AAAhC,8BAeC;AAdiB,+BAAmB,GAAG;IAChC,GAAG,EAAE,kCAAkC;IACvC,GAAG,EAAE,kCAAkC;CAC1C,CAAA;AAEa,+BAAmB,GAAG;IAChC,GAAG,EAAE,gCAAgC;IACrC,GAAG,EAAE,gCAAgC;CACxC,CAAA;AAEa,8BAAkB,GAAG;IAC/B,GAAG,EAAE,8BAA8B;IACnC,GAAG,EAAE,8BAA8B;CACtC,CAAA"}

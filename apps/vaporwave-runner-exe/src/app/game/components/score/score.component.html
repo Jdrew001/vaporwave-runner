@@ -1,0 +1,9 @@
+<ng-lottie
+    width="100%"
+    [styles]="scoreStyles"
+    [options]="scoreOpts"
+    (enterFrame)="enterFrame($event)"></ng-lottie>
+
+    <div class="score-txt-container">
+        <p class="score-txt">{{ playerScore }}</p>
+    </div>

@@ -1,0 +1,12 @@
+{
+  "name": "synth-runner",
+  "description": "Angular Electron sample",
+  "author": {
+    "name": "Maxime GRIS",
+    "email": "maxime.gris@gmail.com"
+  },
+  "version": "0.0.1-snapshot-2",
+  "main": "main.js",
+  "private": true,
+  "dependencies": {}
+}

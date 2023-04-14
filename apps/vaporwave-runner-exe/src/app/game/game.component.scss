@@ -1,0 +1,23 @@
+div.game-container {
+    position: relative;
+}
+
+div.score-container {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: white;
+}
+
+div.signal-container {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: white;
+}
+
+div.speed-container {
+    position: absolute;
+    top: 5px;
+    color: white;
+}
